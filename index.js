@@ -23,3 +23,9 @@ app.get('/login', (req, res) => {
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
+//javascript me do tarah se importing hoti hai
+//1. CommonJS (require)
+//2. ES6 Modules (import/export)
+//dotenv ko use karne se humein environment variables ko manage karne me madad milti hai
